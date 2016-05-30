@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Sid Jain</title>
+        <!-- Fonts -->
+        <link rel="stylesheet" href="assets/fonts/css/font-awesome.css">
+        <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+        <!-- Le styles -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
+        <!--Modernizr -->
+        <!--Jquery -->
+        <script src="assets/js/vendor/jquery.js"></script>
+        <!-- Fav and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+        <base target="_blank">
+    </head>
+    <body>
+        <div id="wrapper" class="hidden">
+            <section id="home" class="fullheight">
+                <header class="introText text-center">
+                    <h1>HI! I'M SID</h1>
+                    <a class="btn btn-large btn-gray scroll" href="#about">
+                        <i class="icon-chevron-down"></i>
+                    </a>
+                </header>
+            </section>
+            <section id="about">
+                <header>
+                    <h3>About</h3>
+                </header>
+                <div class="container">
+                    <div class="row-fluid">
+                        <article class="span6">
+                            <div class="text-justify abtText">
+                                <div>
+                                    I'm a sophomore at the Henry Samueli School of Engineering and Applied Sciences at UCLA!
+                                    I'm majoring in Compter Science and Engineering. I love coding, music and Mila Kunis. Dan Brown is my favourite author. <br>
+                                    P.S. I love (ab)using parentheses.
+                                </div>
+                            </div>
+                        </article>
+                        <aside class="span5 offset1">
+                            <div class="row-fluid">
+                                <div class="span12 zombie">
+                                    <img class="shake img-circle" src="assets/img/siddharth.jpg">
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="row-fluid hidden-phone">
+                        <aside id="meters">
+                            <div class="span4">
+                                <!-- CHART N 1 -->
+                                <div class="skill">
+                                    <input data-readonly="true" data-skin="tron" data-fgcolor="#DC3522" data-inputColor="#DC3522" data-thickness=".1" data-width="200" data-height="100" class="knobchart" rel="9" value="0" readonly data-angleArc="180" data-angleOffset="-90" data-max="10">
+                                    <h5 style="color:#DC3522">Cokes drained/Week</h5>
+                                </div>
+                                <!-- END CHART N 1 -->
+                            </div>
+                            <div class="span4">
+                                <!-- CHART N 2 -->
+                                <div class="skill">
+                                    <input data-readonly="true" data-skin="tron" data-thickness=".1" data-fgcolor="#D9CB9E" data-inputColor="#D9CB9E" data-width="200" data-height="100" class="knobchart" rel="84" value="0" readonly data-angleArc="180" data-angleOffset="-90" data-max="100">
+                                    <h5 style="color:#D9CB9E">Hours slept/Week</h5>
+                                </div>
+                                <!-- END CHART N 2 -->
+                            </div>
+                            <div class="span4">
+                                <!-- CHART N 3 -->
+                                <div class="skill">
+                                    <input data-readonly="true" data-skin="tron" data-fgcolor="#EA2E49" data-thickness=".1" data-inputColor="#EA2E49" data-width="200" data-height="100" class="knobchart" rel="999" value="0" readonly data-angleArc="180" data-angleOffset="-90" data-max="1000">
+                                    <h5 style="color:#EA2E49">Lines of code written/Week</h5>
+                                </div>
+                                <!-- END CHART N 3 -->
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+            <section id="feed">
+                <header>
+                    <h3>Feed</h3>
+                </header>
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <div id="wall"></div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span12 feedcontrol">
+                            <button id="loadingFeed" type="button" class="btn btn-block btn-large" data-loading-text="<i class='icon-spinner icon-spin'></i> Loading..."></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Le javascript==================================================-->
+            <script src="assets/js/bootstrap.min.js"></script>
+            <script src="assets/js/vendor/scripts.min.js"></script>
+            <script src="assets/js/feed.js"></script>
+            <script src="assets/js/main.js"></script>
+            <script type="text/javascript">
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-36236438-1']);
+				_gaq.push(['_setDomainName', 'isiddharth.com']);
+				_gaq.push(['_trackPageview']);
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			</script>
+        </div>
+    </body>
+
+</html>
